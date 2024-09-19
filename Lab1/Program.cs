@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Diagnostics.Metrics;
 using System.Runtime.InteropServices;
+using System.Xml;
 
 public class Program
 {
@@ -94,11 +95,18 @@ public class Program
     public double Task_1_4(double x)
     {
         double answer = 0;
-
+        answer = answer + Math.Cos(x);
         // code here
-        for 
+        if (x==0)
+        {
+            return 0;
+        }
+        for (double i=2;i<10;i++)
+        {
+            answer =answer + Math.Cos(i * x) / Math.Pow(x,i-1);
+        }
+        answer = Math.Round(answer, 2);
         // end
-
         return answer;
     }
     public double Task_1_5(double p, double h)
