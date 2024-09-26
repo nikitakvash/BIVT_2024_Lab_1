@@ -114,7 +114,10 @@ public class Program
         double answer = 0;
 
         // code here
-
+        for (double i = 0; i <= 9; i++)
+        {
+            answer = answer + (p + i * h) * (p + i * h);
+        }
         // end
 
         return answer;
@@ -124,17 +127,23 @@ public class Program
         double answer = 0;
 
         // code here
-
+        for (x = -4; x <= 4; x = x + 0.5)
+        {
+            answer = (0.5) * x * x - 7 * x;
+        }
         // end
 
         return answer;
     }
     public int Task_1_7()
     {
-        int answer = 0;
+        int answer = 1;
 
         // code here
-
+        for (int x = 1; x <= 6; x++)
+        {
+            answer = answer * x;
+        }
         // end
 
         return answer;
@@ -144,7 +153,10 @@ public class Program
         int answer = 0;
 
         // code here;
+        for (int x = 1; x <= 6; x++)
+        {
 
+        }
         // end
 
         return answer;
@@ -161,10 +173,13 @@ public class Program
     }
     public int Task_1_10()
     {
-        int answer = 0;
+        int answer = 3;
 
         // code here
-
+        for (int x = 2; x <= 7; x++)
+        {
+            answer = answer * 3;
+        }
         // end
 
         return answer;
@@ -178,10 +193,13 @@ public class Program
     }
     public double Task_1_12(double x)
     {
-        double answer = 0;
+        double answer = 1;
 
         // code here
-
+        for (int i = 1; i <= 10; i++)
+        {
+           answer=answer + answer/x
+        }
         // end
 
         return answer;
