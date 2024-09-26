@@ -74,7 +74,6 @@ public class Program
             answer = answer + 1 / (double)i;
 
         }
-        answer = Math.Round(answer, 2);
         // end
 
         return answer;
@@ -89,7 +88,6 @@ public class Program
             answer = answer + (double)i / i + 1;
         }
         // end
-        answer=Math.Round(answer, 2);
         return answer;
     }
     public double Task_1_4(double x)
@@ -127,10 +125,7 @@ public class Program
         double answer = 0;
 
         // code here
-        for (x = -4; x <= 4; x = x + 0.5)
-        {
-            answer = (0.5) * x * x - 7 * x;
-        }
+        answer = (0.5) * x * x - 7 * x;
         // end
 
         return answer;
@@ -198,7 +193,7 @@ public class Program
         // code here
         for (int i = 1; i <= 10; i++)
         {
-           answer=answer + answer/x
+            answer = answer + answer / x;
         }
         // end
 
@@ -209,7 +204,18 @@ public class Program
         double answer = 0;
 
         // code here
-
+        if (x <= -1)
+        {
+            answer = 1;
+        }
+        if (x > -1)
+        {
+            answer = -x;
+        }
+        if (x > 1)
+        {
+            answer = -1;
+        }
         // end
 
         return answer;
