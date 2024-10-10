@@ -241,7 +241,7 @@ public class Program
     {
         double answer = 0;
         int power = 0;
-        double n = 1
+        double n = 1;
 
         // code here
         for (int i = 1; i <= 64; i++)
@@ -264,14 +264,12 @@ public class Program
     public int Task_1_18(int x)
     {
         int answer = 10;
-
         // code here
-        for (int i== 3; i <= 24; i = i + 3)
+        for (double h=x;  h>=0; h = h - 3)
         {
             answer = answer * 2;
         }
         // end
-
         return answer;
     }
     #endregion
