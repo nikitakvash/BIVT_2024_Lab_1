@@ -241,29 +241,35 @@ public class Program
     {
         double answer = 0;
         int power = 0;
+        double n = 1
 
         // code here
-
+        for (int i = 1; i <= 64; i++)
+        {
+           answer = answer + n;
+           n = n * 2;
+        }
         // end
-
+        answer = answer / 15;
         return (answer, power);
     }
     public double Task_1_17(double x)
     {
         double answer = 0;
-
         // code here
-
+        
         // end
-
         return answer;
     }
     public int Task_1_18(int x)
     {
-        int answer = 0;
+        int answer = 10;
 
         // code here
-
+        for (int i== 3; i <= 24; i = i + 3)
+        {
+            answer = answer * 2;
+        }
         // end
 
         return answer;
