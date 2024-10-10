@@ -257,7 +257,7 @@ public class Program
     {
         double answer = 0;
         // code here
-        
+        answer = Math.Pow((Math.Pow(6350, 2) + Math.Pow(6350+x, 2)), 0.5);
         // end
         return answer;
     }
