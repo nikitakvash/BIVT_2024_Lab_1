@@ -400,13 +400,13 @@ public class Program
         for (int n = 1; n <= 1000000; n = n + 1)
         {
             l = l / 2;
-            if (l <= (Math.Pow(10; -10)))
+            if (l <= (Math.Pow(10, -10)))
             {
                 answer = n;
+                break;
             }
         }
         // end
-       
         return answer;
     }
     public int Task_2_10()
