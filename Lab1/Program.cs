@@ -298,9 +298,22 @@ public class Program
     public int Task_2_3(double a, double h, double p)
     {
         int answer = 0;
+        double s = a;
+        if (s > p)
+        {
+            return 0;
+        }
 
         // code here
-
+        for (int j = 1; j <= 100000; j = j + 1)
+        {
+            s = s + (a + (h * j));
+            if (s>p)
+            {
+                answer = j;
+                break;
+            }
+        }
         // end
 
         return answer;
@@ -337,10 +350,13 @@ public class Program
     }
     public double Task_2_7a()
     {
-        double answer = 0;
+        double answer = 10;
 
         // code here
-
+        for (double i=1; i<=7;i=i+1)
+        {
+            answer = answer + (answer * 110 / 100);
+        }
         // end
 
         return answer;
