@@ -394,11 +394,19 @@ public class Program
     public int Task_2_9()
     {
         int answer = 0;
+        double l = 0.1;
 
         // code here;
-
+        for (int n = 1; n <= 1000000; n = n + 1)
+        {
+            l = l / 2;
+            if (l <= (Math.Pow(10; -10)))
+            {
+                answer = n;
+            }
+        }
         // end
-
+       
         return answer;
     }
     public int Task_2_10()
